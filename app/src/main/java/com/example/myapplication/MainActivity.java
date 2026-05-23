@@ -81,6 +81,12 @@ public class MainActivity extends AppCompatActivity {
             viewText = localNum + "";
         }
         updateDisplay();
+        viewText = "0";
+        newNum = false;
+        secondNum = 0;
+        isSwitch = false;
+        pointChange =1;
+        firstNum = 0;
     }
 
     void onNumberClick(int num) {
@@ -163,7 +169,7 @@ public class MainActivity extends AppCompatActivity {
            return;
         }
         updateDisplay();
-        viewText = "";
+        viewText = "0";
         newNum = false;
         secondNum = 0;
         isSwitch = false;
